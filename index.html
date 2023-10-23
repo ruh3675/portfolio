@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="output.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Exo:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<title>Document</title>
+</head>
+<body>
+
+    <!-- ______________________________header______________________________ -->
+
+	<header class="h-auto w-full fixed top-0  transition duration-500" id="header">
+		<nav class=" flex items-center justify-between md:h-20 h-16 w-full md:w-full border-b-2 border-gray-600 dark:bg-transparent backdrop-blur-2xl bg-white/30 " >
+
+            <ul class=" lg:flex hidden md:pl-80">
+				<li><a class=" mx-5 font-semibold dark:hover:text-yellow-600 hover:text-blue-700" href="#home">Home</a></li>
+				<li><a class=" mx-5 font-semibold dark:hover:text-yellow-600 hover:text-blue-700" href="#about">About Me</a></li>
+				<li><a class=" mx-5 font-semibold dark:hover:text-yellow-600 hover:text-blue-700" href="#skills">Skills</a></li>
+				<li><a class=" mx-5 font-semibold dark:hover:text-yellow-600 hover:text-blue-700" href="#education">Education</a></li>
+				<!-- <li><a class=" mx-5 font-semibold dark:hover:text-yellow-600 hover:text-blue-700" href=""></a></li> -->
+				<li><a class=" mx-5 font-semibold dark:hover:text-yellow-600 hover:text-blue-700 " href="#contact">Contact Me</a></li>
+			</ul>
+
+			<input type="checkbox" id="dark-mode-toggle" class="hidden">
+				<label for="dark-mode-toggle" class=" md:mr-12 md:w-10 md:h-10 bg-white dark:bg-gray-900 rounded-full p-1 cursor-pointer flex items-center justify-center transition-transform duration-300 mx-7" > 
+				  <div id="icon-sun" class="icon-sun md:text-3xl">
+					🌙
+				  </div>
+				  <div id="icon-moon" class="icon-moon hidden md:text-3xl">
+					🌞
+				  </div>
+				</label>
+		</nav>
+	</header>
+
+    <!-- ______________________________home______________________________ -->
+
+	<section id="home" class=" md:h-screen h-auto w-full bg-gradient-to-r from-blue-200 to-slate-200 dark:bg-gradient-to-r dark:from-slate-950 dark:to-slate-900 md:pb-0 pb-14">
+		<div class=" h-auto w-full flex flex-col items-center justify-center md:pt-60 pt-28">
+			<h1 class=" md:text-5xl text-2xl font-satisfy text-blue-700 dark:text-yellow-600">Hey, I'm</h1>
+			<h1 class=" md:text-9xl text-5xl font-satisfy dark:text-slate-200 md:pt-5 pt-3">Ruchi yadav</h1>
+			<img class="flex md:hidden mt-4 h-48 w-48 rounded-full shadow-2xl shadow-slate-300" src="neha.jpg" alt="">
+			<p class="md:text-5xl text-2xl text-center font-satisfy text-blue-700 dark:text-yellow-600 md:pt-10 pt-5">
+				<span id="typewriter" class="typewriter-text"></span>
+			</p>
+		</div>
+	</section>
+
+    <!-- ______________________________About______________________________ -->
+
+     <section id="about" class=" md:h-auto h-auto w-full bg-gradient-to-r from-blue-200 to-slate-200 md:bg-gradient-to-r md:from-white md:to-white dark:bg-gradient-to-r dark:from-slate-950 dark:to-slate-900 md:pt-16 pt-10 md:pb-16 pb-12">
+		<h1 class=" flex items-center justify-center md:text-5xl text-3xl font-semibold md:font-bold font-satisfy dark:text-yellow-800 md:mt-14">About Me</h1>
+		<div class=" flex flex-wrap items-center justify-center md:h-auto w-full h-auto ">
+           <img class="md:flex hidden md:h-[400px] md:w-[400px] / mt-20 shadow-2xl shadow-blue-500" src="ruchi.jpg" alt="">
+		   <div class=" md:h-auto md:w-[600px] md:mt-20 mt-8 md:ml-16 mx-6 md:mx-0">
+			<p class="dark:text-slate-200 md:text-[18px]">Hey, I'm Ruchi, a final year BCA student from Allenhouse Business School. I completed an online internship at TECHNOHACKS, where I gained
+				valuable experience in web development. I'm skilled in HTML, CSS, Javascript, and I'm always eager to learn more!
+			</p>
+			<ul class=" flex flex-col pt-10 md:mx-0 mx-10">
+				<li class=" dark:text-slate-200 md:text-xl md:pt-5 pt-3"><b class="md:text-xl dark:text-white md:pt-5 pt-3">Name = </b>Ruchi yadav</li>
+				<li class=" dark:text-slate-200 md:text-xl md:pt-5 pt-3"><b class="md:text-xl dark:text-white md:pt-5 pt-3">Father name = </b>Mr. Vipin yadav</li>
+				<li class=" dark:text-slate-200 md:text-xl md:pt-5 pt-3"><b class="md:text-xl dark:text-white md:pt-5 pt-3">Date of Birth = </b>15/9/2005</li>
+				<li class=" dark:text-slate-200 md:text-xl md:pt-5 pt-3"><b class="md:text-xl dark:text-white md:pt-5 pt-3">Hobbies = </b>Personal coding Project</li>
+			</ul>
+		   </div>
+		</div>
+	 </section>
+
+	 <!-- ______________________________Skills______________________________ -->
+
+	 <section id="skills" class="h-auto w-full bg-gradient-to-r from-blue-200 to-slate-200 dark:bg-gradient-to-r dark:from-slate-950 dark:to-slate-900 pb-10">
+		<h1 class=" flex items-center justify-center md:text-5xl text-3xl font-semibold md:font-bold font-satisfy dark:text-yellow-800  md:pt-24 md:pb-24 pb-10 pt-10">Skills</h1>
+		<div class=" flex flex-wrap items-center justify-center">
+			<div class=" h-52 w-60 md:h-72 lg:h-96 lg:w-96 md:w-72 bg-white dark:bg-slate-900 shadow-2xl dark:shadow-lg dark:shadow-yellow-700 shadow-purple-400 flex flex-col md:mx-14 mx-6 ">
+				 <h1 class="lg:text-3xl text-xl text-blue-950 dark:text-gray-400 font-semibold md:font-bold mx-14 lg:mx-24 my-6">SOFT SKILLS</h1>
+				 <ul class=" flex flex-col list-disc mx-[60px] lg:mx-28">
+					<li class="dark:text-gray-300 md:text-xl lg:pt-5">Communication</li>
+					<li class="dark:text-gray-300 md:text-xl lg:pt-5">Problem solving</li>
+					<li class="dark:text-gray-300 md:text-xl lg:pt-5">Design thinking</li>
+					<li class="dark:text-gray-300 md:text-xl lg:pt-5">Adaptable</li>
+				 </ul>
+			</div>
+
+			<div class=" h-60 w-60 md:h-72 lg:h-96 md:w-72 lg:w-96 bg-white dark:bg-slate-900 shadow-2xl dark:shadow-lg dark:shadow-yellow-700 shadow-purple-400 flex flex-col md:mx-14 my-12 md:my-0">
+				<h1 class="lg:text-3xl text-xl text-blue-950 dark:text-gray-400 font-semibold md:font-bold mx-14 lg:mx-24 my-6">HARD SKILLS</h1>
+				<ul class=" flex flex-col list-disc mx-20 lg:mx-32">
+				   <li class="dark:text-gray-300 md:text-xl lg:pt-5">Python</li>
+				   <li class="dark:text-gray-300 md:text-xl lg:pt-5">C</li>
+				   <li class="dark:text-gray-300 md:text-xl lg:pt-5">HTML</li>
+				   <li class="dark:text-gray-300 md:text-xl lg:pt-5">CSS</li>
+				   <li class="dark:text-gray-300 md:text-xl lg:pt-5">Javascript</li>
+				</ul>
+		   </div>
+		</div>
+	 </section>
+
+	 <!-- ______________________________education______________________________ -->
+
+	 <section id="education" class=" h-auto w-full bg-gradient-to-r from-blue-200 to-slate-200 md:bg-gradient-to-r md:from-white md:to-white dark:bg-gradient-to-r dark:from-slate-950 dark:to-slate-900 md:pt-16 pt-10 md:pb-16 pb-12" >
+		<h1 class=" flex items-center justify-center md:text-5xl text-3xl font-semibold md:font-bold font-satisfy dark:text-yellow-800 md:mt-14">Education</h1>
+
+        <div class=" h-auto md:w-auto border-l-2 border-slate-800 dark:border-yellow-700 dark:shadow-md dark:hover:shadow-yellow-800  md:mx-32 mx-7 mt-11 pb-7">
+			<h1 class=" text-xl mx-5 font-semibold dark:text-yellow-50">2021-2024</h1>
+          <div class=" md:text-xl text-yellow-50 bg-blue-800  dark:bg-slate-800 p-5 h-14 w-full mx-5 mt-4">Bachelor of Computer Application</div>
+		  <div class=" md:text-xl  dark:text-yellow-50 bg-yellow-500 dark:bg-slate-800 p-5 h-14 w-full mx-5 mt-4">Allenhouse Business School</div>
+		</div>
+
+		<div class=" h-auto md:w-auto border-l-2 border-slate-800 dark:shadow-md dark:hover:shadow-yellow-800 dark:border-yellow-700  md:mx-32 mt-11 mx-7 pb-7">
+			<h1 class=" text-xl mx-5 font-semibold dark:text-yellow-50">2021</h1>
+          <div class=" md:text-xl text-yellow-50 bg-blue-800  dark:bg-slate-800 p-5 h-14 w-full mx-5 mt-4">Intermediate</div>
+		  <div class=" md:text-xl  dark:text-yellow-50 bg-yellow-500 dark:bg-slate-800 p-5 h-14 w-full mx-5 mt-4">Vidya Niketan Education Center</div>
+		</div>
+
+		<div class=" h-auto md:w-auto border-l-2 dark:shadow-md dark:hover:shadow-yellow-800 dark:border-yellow-700  border-slate-900 md:mx-32 mt-11 mx-7 pb-7">
+			<h1 class=" text-xl dark:text-yellow-50 mx-5 font-semibold ">2019</h1>
+          <div class=" md:text-xl text-yellow-50 dark:bg-slate-800  bg-blue-800 p-5 h-14 w-full mx-5 mt-4">High School</div>
+		  <div class=" md:text-xl dark:text-yellow-50 bg-yellow-500 dark:bg-slate-800 p-4 h-14 w-full mx-5 mt-4">Vidya Niketan Education Center</div>
+		</div>
+
+		<!-- ______________________________traings______________________________ -->
+
+        <div class=" flex flex-wrap items-center justify-center pt-7">
+		  <div class=" flex flex-col items-center justify-center">	
+             <div class="w-full h-auto flex  items-center justify-center mt-10">
+			      <div class=" md:text-4xl text-2xl font-satisfy text-black dark:text-stone-500 font-bold underline flex items-center justify-center md:pt-6">Training and Certification</div>
+			 </div>	
+			   <h1 class=" text-2xl  flex items-center justify-center md:pt-10 pt-6 text-red-900 font-semibold">LI-MAT SOFT SOLUTIONS</h1>
+			   <p class=" text-xl dark:text-gray-400 flex items-center justify-center md:pt-5">Advanced C and Web development</p>
+			   <p class=" text-lg dark:text-gray-400 text-red-900 flex items-center justify-center md:pt-5 mx-5">Certificate of Web development<a class="md:flex hidden text-blue-700 mx-3 text-base" href="web.jpg">Click here</a></p>
+			   <a class=" text-blue-700 mx-3 md:hidden text-base" href="web.jpg">Click here</a>
+			   <p class=" text-lg dark:text-gray-400 text-red-900 flex items-center justify-center md:pt-3">Certificate of advance C<a  class=" text-blue-700 mx-3 text-base" href="c.jpg">Click here</a></p>
+          </div>
+		  <!-- ______________________________internship______________________________ -->
+
+		  <div class=" flex flex-col md:mx-24">	
+			<div class="w-full h-auto flex  items-center justify-center mt-10">
+				 <div class=" md:text-4xl text-2xl font-satisfy text-black dark:text-stone-500 font-bold underline flex items-center justify-center md:pt-6">Internship</div>
+			</div>	
+			  <h1 class=" text-2xl  flex items-center justify-center md:pt-10 pt-6 text-red-900 font-semibold">TECHNOHACKS</h1>
+			  <p class=" text-xl dark:text-gray-400 flex items-center justify-center md:pt-5">Web development</p>
+			  <p class=" text-lg dark:text-gray-400 text-red-900 flex items-center justify-center md:pt-5">Certificate of internship<a class=" text-blue-700 mx-3 text-base" href="internship.jpg">Click here</a></p>
+		 </div>
+		</div>
+	 </section>
+
+     <!-- ______________________________Contact______________________________ -->
+
+	 <section id="contact" class=" flex flex-col items-center justify-center w-full h-auto bg-gradient-to-r from-blue-200 to-slate-200 dark:bg-gradient-to-r dark:from-slate-950 dark:to-slate-900">
+    	<h1 class=" flex items-center justify-center md:text-5xl text-3xl font-semibold md:font-bold font-satisfy dark:text-yellow-800 md:pt-28 md:pb-16 pt-10 pb-4">Contact Me</h1>
+        <div class=" md:flex hidden flex-wrap items-center justify-center h-auto w-full">
+			<div class=" bg-white dark:bg-slate-900 h-80 w-80 flex flex-col items-center justify-center rounded-xl shadow-2xl dark:shadow-xl dark:shadow-yellow-800 mx-16">
+				<div class=" h-20 w-20 rounded-full bg-gradient-to-t from-purple-600 to-purple-400 dark:bg-gradient-to-t dark:from-yellow-700 dark:to-yellow-500 flex items-center justify-center">
+					<i class="fa-solid fa-paper-plane text-3xl"></i>
+				</div>
+				<h1 class=" text-4xl font-semibold font-satisfy pt-9 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400  text-transparent bg-clip-text">Email</h1>
+				<p class=" text-2xl font-semibold font-satisfy pt-5 text-gray-700 dark:text-gray-400">yadavruchi1509@gmail.com</p>
+			</div>
+
+			<div class=" bg-white dark:bg-slate-900 h-80 w-80 dark:shadow-xl dark:shadow-yellow-800 lg:flex hidden flex-col items-center justify-center rounded-xl shadow-2xl">
+				<div class=" h-20 w-20 rounded-full bg-gradient-to-t from-purple-600 to-purple-400 dark:bg-gradient-to-t dark:from-yellow-700 dark:to-yellow-500 flex items-center justify-center">
+					<i class="fa-solid fa-location-dot text-3xl "></i>
+				</div>
+				<h1 class=" text-4xl font-semibold font-satisfy pt-9 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400  text-transparent bg-clip-text">Address</h1>
+				<p class=" text-2xl font-semibold font-satisfy pt-5 text-gray-700 dark:text-gray-400">30/1 girja nagar kanpur</p>
+			</div>
+
+			<div class=" bg-white dark:bg-slate-900 dark:shadow-xl dark:shadow-yellow-800 h-80 w-80 flex flex-col items-center justify-center rounded-xl shadow-2xl mx-16">
+				<div class=" h-20 w-20 rounded-full bg-gradient-to-t from-purple-600 to-purple-400 dark:bg-gradient-to-t dark:from-yellow-700 dark:to-yellow-500 flex items-center justify-center">
+					<i class="fa-solid fa-phone text-3xl "></i>
+				</div>
+				<h1 class=" text-4xl font-semibold font-satisfy pt-9 bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400  text-transparent bg-clip-text">Phone</h1>
+				<p class=" text-2xl font-semibold font-satisfy pt-5 text-gray-700 dark:text-gray-400">7307365089</p>
+			</div>
+		</div>
+        
+        	<!-- COMPONENT CODE -->
+			<div class="container mx-auto my-4 px-4 lg:px-20">
+		
+				<div class="w-full p-8 my-4 md:px-12  lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+					<div class="flex">
+						<h1 class=" md:text-5xl text-2xl font-satisfy dark:text-yellow-700">Send me a message</h1>
+					</div>
+					<div class="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+						<input class="w-full bg-gray-100 dark:bg-stone-600 text-gray-900 dark:text-white mt-2 p-2 md:p-3 rounded-lg focus:outline-none focus:shadow-outline "
+					type="text" placeholder="First Name*" />
+						<input class="w-full bg-gray-100 dark:bg-stone-600 text-gray-900 mt-2 md:p-3 p-2 rounded-lg focus:outline-none focus:shadow-outline"
+					type="text" placeholder="Last Name*" />
+						<input class="w-full bg-gray-100 dark:bg-stone-600 text-gray-900 mt-2 md:p-3 p-2 rounded-lg focus:outline-none focus:shadow-outline"
+					type="email" placeholder="Email*" />
+						<input class="w-full bg-gray-100 dark:bg-stone-600 text-gray-900 mt-2 md:p-3 p-2 rounded-lg focus:outline-none focus:shadow-outline"
+					type="number" placeholder="Phone*" />
+				</div>
+				  <div class="my-4">
+					  <textarea placeholder="Message*" class="w-full h-32 bg-gray-100 dark:bg-stone-600 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+				  </div>
+				  <div class="my-2 w-1/2 lg:w-1/4">
+					  <button class="font-satisfy md:text-xl tracking-wide dark:bg-gradient-to-r dark:from-yellow-700 dark:to-yellow-500 bg-blue-900 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+						Send Message
+					  </button>
+				  </div>
+			</div>
+		</div>
+		
+	 </section>
+
+	<script src="script.js"></script>
+</body>
+</html>
